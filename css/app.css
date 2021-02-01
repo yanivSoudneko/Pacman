@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.pacman {
+    width: 30px;
+    height: 30px;
+}
+
+.board-container {
+    position: relative;
+    text-align: center;
+    width: 400px;
+    left: 700px;
+    z-index: 0;
+    background-color: black;
+    top: 100px;
+}
+
+.main-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.board-container td {
+    background-color: rgb(46, 46, 226);
+}
+
+.mainbtn {
+    position: relative;
+    text-align: center;
+    left: 800px;
+    margin-right: 20px;
+    top: 150px;
+    width: 150px;
+    text-decoration: none;
+    color: blue;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 15px;
+    outline: none;
+}
